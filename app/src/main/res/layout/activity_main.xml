@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="铃声静音助手"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开应用自动保存并静音"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="40dp" />
+
+    <!-- 状态显示区域 -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正在初始化..."
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="#80000000"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_restore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复先前铃声"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看当前状态"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#2196F3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示：\n• 每次打开应用自动保存原音量并静音\n• 点击恢复按钮可还原之前保存的音量"
+        android:textSize="12sp"
+        android:textColor="#DDDDDD"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
