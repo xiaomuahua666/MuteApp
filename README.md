@@ -11,7 +11,9 @@
 
 ## Screenshots
 
-暂无
+<p align="center">
+  <img src="fragmentshow.jpg" width="300">
+</p>
 
 ## Build
 
